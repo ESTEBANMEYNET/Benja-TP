@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/https://github.com/ESTEBANMEYNET/Benja-TP/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon App</title>
+    <script type="module" crossorigin src="/https://github.com/ESTEBANMEYNET/Benja-TP/assets/index-B41d8YUf.js"></script>
+    <link rel="stylesheet" crossorigin href="/https://github.com/ESTEBANMEYNET/Benja-TP/assets/index-BcwrMRgB.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/https://github.com/ESTEBANMEYNET/Benja-TP/assets/International_Pok%C3%A9mon_logo.svg-D2rJ6iaT.png" alt="Logo de Pokémon" />
+      </div>
+
+      <nav>
+        <form id="filters-form">
+          <label for="search-input">Buscar Pokémon:</label>
+          <input type="text" id="search-input" placeholder="Buscar por nombre..." />
+
+          <label for="type-filter">Filtrar por tipo:</label>
+          <select id="type-filter">
+            <option value="all">Todos los tipos</option>
+          </select>
+
+          <label for="sort-order">Ordenar:</label>
+          <select id="sort-order">
+            <option value="id-asc">ID ↑</option>
+            <option value="id-desc">ID ↓</option>
+            <option value="name-asc">Nombre A-Z</option>
+            <option value="name-desc">Nombre Z-A</option>
+          </select>
+        </form>
+      </nav>
+    </header>
+
+    <main>
+      <img src="/https://github.com/ESTEBANMEYNET/Benja-TP/assets/fondo-pokemon-DVmgbFA7.jpg" class="fondo" alt="Fondo de Pokémon" />
+
+      <div id="pokemon-container"></div>
+
+    </main>
+  </body>
+</html>
