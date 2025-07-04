@@ -15,7 +15,7 @@ function createPokemonCard(pokemon) {
   `;
 
   card.addEventListener('click', () => {
-  window.location.href = `pokemon.html?id=${pokemon.id}`;
+  window.location.href = `./pokemon.html?id=${pokemon.id}`;
 });
   return card;
 }
